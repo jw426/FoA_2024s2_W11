@@ -11,7 +11,7 @@ git pull
 3. Update from local to git repository
 git add [file] || git add . 
 git commit -m "[descriptive message]"
-git push -u [remote] [branch name] || git push -u origin master
+git push -u [remote] [branch name] || git push -u origin main
 
 
 ** for more details **
