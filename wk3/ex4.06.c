@@ -1,14 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char** argv) {
-
-
-    // SCANF
-    int temp; 
-    while (scanf("%d", &temp) == 1) {
-        printf("%d\n", temp);
+    
+    // Take in input / Read in characters (getchar())
+    char ch;
+    int num_lines = 0, num_chars = 0;  
+    while ((ch = getchar()) != EOF) {
+        // Count the lines
+        if (ch == '\n') {
+             num_lines++;   
+        }
+        // Count the chars
+        num_chars++;
     }
+    
+    printf("Lines %d, Chars %d\n", num_lines, num_chars);
 
-    return 0;
+
+     return 0;   
 }
