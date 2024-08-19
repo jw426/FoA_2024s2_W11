@@ -10,20 +10,21 @@
 int
 main(int argc, char *argv[]) {
     
+    
 
     return 0;
 }
 
-/* returns index of largest value in the supplied array
+/* returns index of smallest value in the supplied array
  * another name for this function is argmax 
  * iterative version */
 int
-index_of_largest(int A[], int n) {
+index_of_smallest(int A[], int n) {
    
 }
 
 /* implements selection sort by repeatedly swapping
-   the next largest item in the array into the last position of a
+   the next smallest item in the array into the first position of a
    decreasing array segment
    iterative version
 */
